@@ -36,6 +36,7 @@ form{
     margin: auto;
     max-width: 750px;
     padding: 20px;
+    min-width: 300px;
 }
 input, select{
     width: 100%;
