@@ -17,7 +17,10 @@ body{
     z-index: 0;
     margin: -10px;
     padding: 20px;
+    background-size:cover;
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 h1, p{
     text-align: center;
@@ -81,6 +84,7 @@ button{
     font-weight: bold;
     font-family: sans-serif;
     padding: 20px 40px;
+   /*max-width: 300px;*/
 }
 button:hover{
     animation: vibrate 1000ms ease-in-out;
