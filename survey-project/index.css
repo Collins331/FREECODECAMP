@@ -1,20 +1,14 @@
-body{
-    
+body{ 
     background-size:cover;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     color: #f2f2f2;
-    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
-    z-index: 1;
+    background-image: url(images.jpeg);
+    margin: auto;
     overflow-x: hidden;
 }
 .background{
-    
     background-color: rgba(38, 28, 129, 0.75);
-    width: all;
-    height: all;
-    z-index: 0;
     margin: -10px;
     padding: 20px;
     background-size:cover;

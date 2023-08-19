@@ -2,12 +2,15 @@ body{
     background: linear-gradient(180deg,
      rgba(236, 52, 92, 0.6),
       rgba(151, 104, 4, 0.801)),
-    url(images.jpeg);
+    url(android-chrome-512x512.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
     backface-visibility: visible;
     margin: auto;
+    overflow-x: hidden;
+    height: 100%;
+    background-position: center;
     
 }
 h1{
@@ -32,6 +35,12 @@ img {
     height: 15%;
     margin-top: 2em;
     margin-bottom: 0;
+    border-radius:  100%;/*65% 65% 75% 75%;*/
+    z-index: 1;
+    opacity: 0.8;
+}
+img:hover{
+    opacity: 1;
 }
 form{
     width: 80%;
@@ -39,8 +48,8 @@ form{
     background: linear-gradient(135deg, rgba(23, 67, 200, 0.678), rgba(48, 158, 98, 0.849));
     padding: 0;
     font-size: 1.5em;
-    min-width: 300px;
-    max-width: 700px;
+    min-width: 500px;
+    max-width: 800px;
 }
 fieldset{
     border: none;
