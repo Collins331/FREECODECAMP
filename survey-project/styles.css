@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(180deg,
+     rgba(236, 52, 92, 0.6),
+      rgba(151, 104, 4, 0.801)),
+    url(images.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    backface-visibility: visible;
+    
+}
+h1{
+    text-align: center;
+    font-weight:bold;
+    font-size: 5em;
+    font-style: normal;
+    font-family: Gill Sans, Calibri;
+    color: #040129;
+    margin: 2%;
+}
+p{
+    text-align: center;
+    font: 1.5em sans-serif;
+    margin: -2.5% 0 5% 0;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 15%;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+form{
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(135deg, rgba(23, 67, 200, 0.678), rgba(48, 158, 98, 0.849));
+    padding: 0;
+    font-size: 1.5em;
+}
+fieldset{
+    border: none;
+}
+label{
+    display: block;
+    margin: 2% auto;
+}
+
+input{
+    width: 100%;
+    margin: 1em auto;
+    font-size: 1em;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    width: unset;
+}
+textarea{
+    display: block;
+}
