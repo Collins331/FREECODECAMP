@@ -7,6 +7,7 @@ body{
     background-attachment: fixed;
     background-size:cover;
     backface-visibility: visible;
+    margin: auto;
     
 }
 h1{
@@ -38,6 +39,8 @@ form{
     background: linear-gradient(135deg, rgba(23, 67, 200, 0.678), rgba(48, 158, 98, 0.849));
     padding: 0;
     font-size: 1.5em;
+    min-width: 300px;
+    max-width: 700px;
 }
 fieldset{
     border: none;
