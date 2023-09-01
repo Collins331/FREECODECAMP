@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Lincoln Form</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Lincoln Survey Form</h1>
+        </header>
+        <form action="index.php" method="post">
+            <section>
+                <fieldset>
+                    <legend>Personal details</legend>
+                        <label for="name">Fullname : 
+                            <input type="text" placeholder="Enter your Fullname" id="name" required>
+                        </label><br><br>
+                        <label for="email">Email : 
+                            <input type="email" id="email" required placeholder="Enter your email">
+                        </label><br><br>
+                        <label for="number">Phone number : 
+                            <input type="number">
+                        </label>
+                </fieldset>
+            </section>
+            <section></section>
+            <section>
+                <button id="submit" type="submit">Submit</button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
